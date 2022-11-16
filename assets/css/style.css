@@ -21017,3 +21017,46 @@ header [data-cart-items]:before {
 .footer-border-top.light {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.step-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #b1b1b1;
+  transition: .4s;
+}
+
+.step-button[aria-expanded="true"] {
+  width: 60px;
+  height: 60px;
+  background-color: #0381ff;
+  color: #fff;
+}
+
+.done {
+  background-color: #0381ff;
+  color: #fff;
+}
+
+.step-item {
+  z-index: 10;
+  text-align: center;
+}
+
+#progress {
+  position: absolute;
+  width: 95%;
+  z-index: 5;
+  height: 10px;
+  margin-left: 18px;
+  background-color: #0381ff;
+}
