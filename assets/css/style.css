@@ -18701,6 +18701,10 @@ article blockquote+.h5 {
   .product-detail .product-info-buttons a {
     font-size: 13px;
   }
+
+  .d-xs-none {
+    display: none !important;
+  }
 }
 
 .product-detail .product-info-buttons a i {
@@ -18769,6 +18773,10 @@ article blockquote+.h5 {
   .review-box .review-image {
     width: 60px;
     height: 60px;
+  }
+
+  .d-none-md {
+    display: none !important;
   }
 }
 
