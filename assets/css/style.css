@@ -21039,14 +21039,14 @@ header [data-cart-items]:before {
   height: 50px;
   border-radius: 50%;
   border: none;
-  background-color: #b1b1b1;
+  background-color: rgb(26, 109, 120);
   transition: .4s;
 }
 
 .step-button[aria-expanded="true"] {
   width: 60px;
   height: 60px;
-  background-color: #0381ff;
+  background-color: rgb(26, 109, 120);
   color: #fff;
 }
 
@@ -21066,5 +21066,5 @@ header [data-cart-items]:before {
   z-index: 5;
   height: 10px;
   margin-left: 18px;
-  background-color: #0381ff;
+  background-color: rgb(26, 109, 120);
 }
